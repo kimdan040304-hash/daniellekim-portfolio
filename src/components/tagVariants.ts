@@ -12,7 +12,11 @@ export type TagVariant =
   | "kubernetes"
   | "postgresql"
   | "ogl"
-  | "glsl";
+  | "glsl"
+  | "content"
+  | "events"
+  | "design"
+  | "marketing";
 
 export const tagLabels = {
   three: "Three.js",
@@ -29,4 +33,8 @@ export const tagLabels = {
   postgresql: "PostgreSQL",
   ogl: "OGL.js",
   glsl: "GLSL",
+  content: "Content Strategy",
+  events: "Events",
+  design: "Design Lead",
+  marketing: "Marketing Lead",
 } as const satisfies Record<TagVariant, string>;

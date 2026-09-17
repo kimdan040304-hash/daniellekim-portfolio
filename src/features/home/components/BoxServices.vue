@@ -107,19 +107,21 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
 };
 
 const SERVICES_EN = [
-  { name: "Three.js & WebGL" },
-  { name: "Node.js & WebSockets" },
-  { name: "React & Vue" },
-  { name: "Kubernetes & Redis" },
-  { name: "Real-time Multiplayer" },
+  { name: "Content Strategy & Campaign Planning" },
+  { name: "Paid Ads (Meta & TikTok Ads Manager)" },
+  { name: "Brand & Event Communications" },
+  { name: "Website & Landing Page Execution (WordPress)" },
+  { name: "Cross-team & International Stakeholder Coordination" },
+  { name: "AI-Powered Workflows & Automation" },
 ] as const satisfies { name: string }[];
 
 const SERVICES_DE = [
-  { name: "Three.js & WebGL" },
-  { name: "Node.js & WebSockets" },
-  { name: "React & Vue" },
-  { name: "Kubernetes & Redis" },
-  { name: "Echtzeit-Mehrspieler" },
+  { name: "Content Strategy & Campaign Planning" },
+  { name: "Paid Ads (Meta & TikTok Ads Manager)" },
+  { name: "Brand & Event Communications" },
+  { name: "Website & Landing Page Execution (WordPress)" },
+  { name: "Cross-team & International Stakeholder Coordination" },
+  { name: "AI-Powered Workflows & Automation" },
 ] as const satisfies { name: string }[];
 
 const services = computed(() => {

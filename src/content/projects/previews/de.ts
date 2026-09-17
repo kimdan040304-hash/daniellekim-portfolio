@@ -1,40 +1,40 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
+import thumbnailSihub from "../../../assets/thumbnails/sihub.jpg";
+import thumbnail003Lab from "../../../assets/thumbnails/003lab.png";
+import thumbnailGokstad from "../../../assets/thumbnails/gokstad.jpg";
+import thumbnailTuGia from "../../../assets/thumbnails/tugia.png";
+import thumbnailVnsic from "../../../assets/thumbnails/vnsic.png";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer-Strategiespiel",
+    title: "SIHUB",
+    slug: "sihub",
+    thumbnail: thumbnailSihub,
+    description: "Content & Events im Startup-Ökosystem",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer-Gaming-Plattform",
+    title: "003Lab",
+    slug: "003lab",
+    thumbnail: thumbnail003Lab,
+    description: "Sprachlern-Apps Content in 5 Märkten",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D-Abenteuerspiel",
+    title: "Gokstad Academy × Norwegian Consulate",
+    slug: "gokstad",
+    thumbnail: thumbnailGokstad,
+    description: "Visuelle Identität für einen internationalen Workshop",
   },
   {
-    title: "WebGL Partikel",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamische 3D Partikel",
+    title: "Tứ Gia Beer",
+    slug: "tugia",
+    thumbnail: thumbnailTuGia,
+    description: "Marketing als Mitgründerin einer Importbier-Marke",
   },
   {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-Source Lernprojekt",
+    title: "VNSIC 2025",
+    slug: "vnsic",
+    thumbnail: thumbnailVnsic,
+    description: "Medien & Kommunikation für ein Event mit 2.000+ Teilnehmenden",
   },
 ] as const satisfies ProjectPreview[];
