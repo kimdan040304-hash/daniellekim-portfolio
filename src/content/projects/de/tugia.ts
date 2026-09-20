@@ -5,18 +5,18 @@ import tugia2 from "../../../assets/images/projects/tugia/tugia-2.png";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Tứ Gia Beer",
+  title: "Tứ Gia Co., Ltd.",
   theme: "light",
   tags: ["marketing", "content"],
   description:
-    "Mitgründung und Leitung des Marketings für ein Importbier-Unternehmen in Ho-Chi-Minh-Stadt, mit organischem Content, bezahlten Social-Ads und Website-Umsetzung. Planung des Content-Kalenders, Durchführung bezahlter Kampagnen auf Meta und TikTok Ads inklusive Budgetverwaltung, sowie Aufbau der WordPress-Website der Marke. Die Kampagnen erzielten 400K+ Reichweite und 7K+ Interaktionen.",
+    "Leitung des Marketings für ein Importbier-Unternehmen in Ho-Chi-Minh-Stadt, mit organischem Content, bezahlten Social-Ads und Website-Umsetzung. Planung des Content-Kalenders, Durchführung bezahlter Kampagnen auf Meta und TikTok Ads inklusive Budgetverwaltung, sowie Aufbau der WordPress-Website der Marke. Die Kampagnen erzielten 400K+ Reichweite und 7K+ Interaktionen.",
   components: [
     {
       type: "media",
       props: {
         type: "image",
         src: tugia0,
-        alt: "Tứ Gia Beer WordPress-Website",
+        alt: "Tứ Gia Co., Ltd. WordPress-Website",
         caption: "Markenwebsite und Landingpage, umgesetzt mit WordPress",
       },
     },

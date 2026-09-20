@@ -5,18 +5,18 @@ import tugia2 from "../../../assets/images/projects/tugia/tugia-2.png";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Tứ Gia Beer",
+  title: "Tứ Gia Co., Ltd.",
   theme: "light",
   tags: ["marketing", "content"],
   description:
-    "Co-founded and led marketing for an imported beer business in Ho Chi Minh City, combining organic content, paid social and website execution. Planned the content calendar, ran paid campaigns on Meta and TikTok Ads with hands-on budget management, and built the brand's WordPress website. Campaigns generated 400K+ reach and 7K+ engagements.",
+    "Led marketing for an imported beer business in Ho Chi Minh City, combining organic content, paid social and website execution. Planned the content calendar, ran paid campaigns on Meta and TikTok Ads with hands-on budget management, and built the brand's WordPress website. Campaigns generated 400K+ reach and 7K+ engagements.",
   components: [
     {
       type: "media",
       props: {
         type: "image",
         src: tugia0,
-        alt: "Tứ Gia Beer WordPress website",
+        alt: "Tứ Gia Co., Ltd. WordPress website",
         caption: "Brand website and landing page built on WordPress",
       },
     },

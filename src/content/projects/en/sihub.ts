@@ -8,7 +8,7 @@ import sihub5 from "../../../assets/images/projects/sihub/sihub-5.png";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "SIHUB",
+  title: "Startup & Innovation Hub of HCMC (SIHUB)",
   theme: "light",
   tags: ["content", "events"],
   description:

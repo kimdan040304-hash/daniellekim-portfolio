@@ -35,6 +35,6 @@ export const tagLabels = {
   glsl: "GLSL",
   content: "Content Strategy",
   events: "Events",
-  design: "Design Lead",
+  design: "Product Team Lead",
   marketing: "Marketing Lead",
 } as const satisfies Record<TagVariant, string>;

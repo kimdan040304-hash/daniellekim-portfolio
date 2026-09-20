@@ -7,11 +7,11 @@ import gokstad4 from "../../../assets/images/projects/gokstad/gokstad-4.png";
 import type { ProjectContent } from "../../types";
 
 export default {
-  title: "Gokstad Academy × Norwegian Consulate Workshop",
+  title: "Nordic Perspectives Workshop",
   theme: "light",
   tags: ["design", "events"],
   description:
-    "Leitung der visuellen Kommunikation für einen internationalen Workshop an der Van Lang University mit über 200 Studierenden und Beteiligung norwegischer Diplomatie- und Wirtschaftsvertreter (Jotun, Carlsberg, SalMar, Ekko). Erstellung von 20+ Kommunikationsmaterialien innerhalb eines Monats.",
+    "Leitung der visuellen Kommunikation für einen internationalen Workshop an der Van Lang University im Mai 2026, mit über 200 Studierenden und Beteiligung norwegischer Diplomatie- und Wirtschaftsvertreter (Jotun, Carlsberg, SalMar, Ekko). Erstellung von 20+ Kommunikationsmaterialien innerhalb eines Monats.",
   components: [
     {
       type: "media",
