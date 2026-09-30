@@ -12,7 +12,9 @@ export interface ProjectContent {
   description?: string;
   videoBorder?: boolean;
   live?: string;
+  liveLabel?: string;
   source?: string;
+  sourceLabel?: string;
   components?: ProjectComponent[];
 }
 

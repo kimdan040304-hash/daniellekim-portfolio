@@ -3,6 +3,7 @@ import thumbnailTuGia from "../../../assets/thumbnails/tugia.png";
 import thumbnailSihub from "../../../assets/thumbnails/sihub.jpg";
 import thumbnailGokstad from "../../../assets/thumbnails/gokstad.jpg";
 import thumbnailVnsic from "../../../assets/thumbnails/vnsic.png";
+import thumbnailHoa2010 from "../../../assets/thumbnails/hoa2010.svg";
 
 import type { ProjectPreview } from "../../types";
 
@@ -36,5 +37,11 @@ export default [
     slug: "vnsic",
     thumbnail: thumbnailVnsic,
     description: "Media & communications for a 2,000+ attendee innovation event",
+  },
+  {
+    title: "AI-Powered Social Listening: Hoa 20/10 Market Scan",
+    slug: "hoa2010",
+    thumbnail: thumbnailHoa2010,
+    description: "AI market research training for 200+ students",
   },
 ] as const satisfies ProjectPreview[];
