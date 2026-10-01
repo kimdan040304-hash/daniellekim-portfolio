@@ -3,7 +3,7 @@ import thumbnailTuGia from "../../../assets/thumbnails/tugia.png";
 import thumbnailSihub from "../../../assets/thumbnails/sihub.jpg";
 import thumbnailGokstad from "../../../assets/thumbnails/gokstad.jpg";
 import thumbnailVnsic from "../../../assets/thumbnails/vnsic.png";
-import thumbnailHoa2010 from "../../../assets/thumbnails/hoa2010.svg";
+import thumbnailHoa2010 from "../../../assets/thumbnails/hoa2010.jpeg";
 
 import type { ProjectPreview } from "../../types";
 
