@@ -10,6 +10,8 @@ import { social } from "../content/social";
 import ButtonRound from "./ButtonRound.vue";
 import ArrowRight from "./icons/ArrowRight.vue";
 import SoundsToggle from "./SoundsToggle.vue";
+import LangSwitch from "./LangSwitch.vue";
+import CvViewer from "./CvViewer.vue";
 import { isFeatureEnabled } from "../utils/features";
 import { useRouter } from "../composables/useRouter";
 import { useFirstRoute } from "../composables/useFirstRoute";
@@ -96,6 +98,9 @@ const getInTouchClassNames = computed(() => {
       <Logo class="header-logo-image" />
     </div>
     <div class="header-right">
+      <CvViewer variant="border" size="sm" shortLabelOnMobile class="header-view-cv" />
+      <LangSwitch class="header-lang-switch" :isDarkTheme="isDarkTheme" />
+      <SoundsToggle class="header-sounds-toggle" :isDarkTheme="isDarkTheme" v-if="isFeatureEnabled('sounds')" />
       <Button
         renderAs="a"
         variant="accent"
@@ -107,7 +112,6 @@ const getInTouchClassNames = computed(() => {
         data-hoversound="hover"
         >{{ t("get-in-touch") }}</Button
       >
-      <SoundsToggle class="header-sounds-toggle" :isDarkTheme="isDarkTheme" v-if="isFeatureEnabled('sounds')" />
     </div>
   </header>
 </template>

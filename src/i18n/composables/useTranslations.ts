@@ -2,27 +2,27 @@ import { watch } from "vue";
 import { loadTranslations } from "../utils/load";
 import { locale, translations } from "../store";
 import { onMounted } from "vue";
-import { LOCALES } from "../constants";
+import { LOCALES, LOCALE_DEFAULT } from "../constants";
 
 import type { Locale } from "../types";
 
 export const useTranslations = () => {
   onMounted(() => {
-    locale.value = window.localStorage.getItem("portfolio-locale") as Locale;
-    if (!locale.value) {
-      const preferredLocale = navigator.language.split("-")[0] as Locale;
+    const saved = window.localStorage.getItem("portfolio-locale");
 
-      if (preferredLocale in LOCALES) {
-        locale.value = preferredLocale;
-      } else {
-        locale.value = "en";
-      }
-    }
+    // Always start in the default locale unless the visitor has previously
+    // made an explicit choice that is still a supported locale (an old
+    // saved "de" from the removed German locale falls back to the default).
+    locale.value = saved && saved in LOCALES ? (saved as Locale) : LOCALE_DEFAULT;
   });
 
   watch(locale, () => {
     if (!locale.value) return;
     window.localStorage.setItem("portfolio-locale", locale.value);
+
+    if (typeof document !== "undefined") {
+      document.documentElement.lang = locale.value;
+    }
   });
 
   watch(

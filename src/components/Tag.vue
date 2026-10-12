@@ -1,17 +1,19 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { tagLabels, type TagVariant } from "./tagVariants";
+import { locale } from "../i18n/store";
 
 const props = defineProps<{
   variant: TagVariant;
 }>();
 
 const classes = computed(() => ["tag", `tag-variant-${props.variant}`]);
+const label = computed(() => tagLabels[locale.value ?? "en"][props.variant]);
 </script>
 
 <template>
   <div :class="classes">
-    <p class="tag-copy">{{ tagLabels[props.variant] }}</p>
+    <p class="tag-copy">{{ label }}</p>
   </div>
 </template>
 

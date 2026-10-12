@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 import { transitions } from "../../../animations";
 import { t } from "../../../i18n/utils/translate";
 import Social from "../../../components/Social.vue";
+import CvViewer from "../../../components/CvViewer.vue";
 
 const contactElement = ref<HTMLElement | null>(null);
 
@@ -22,6 +23,7 @@ onUnmounted(() => {
     <div class="contact-content">
       <h2 class="contact-title" v-html="t('lets-work-together')"></h2>
       <Social variant="background" />
+      <CvViewer variant="accent" class="contact-view-cv" />
     </div>
   </div>
 </template>
@@ -60,6 +62,10 @@ onUnmounted(() => {
     @include mixins.mq("lg") {
       grid-column: 2 / 6;
     }
+  }
+
+  &-view-cv {
+    width: fit-content;
   }
 
   &-title {

@@ -65,7 +65,7 @@ watch(projectId, () => {
   }
 
   &-button {
-    flex: 0.5;
+    flex: 0 1 auto;
 
     @include mixins.mq("md") {
       width: fit-content;
@@ -76,6 +76,7 @@ watch(projectId, () => {
     grid-row: 3;
     grid-column: 1 / 13;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: var(--space-sm);

@@ -115,17 +115,17 @@ const SERVICES_EN = [
   { name: "AI-Powered Workflows & Automation" },
 ] as const satisfies { name: string }[];
 
-const SERVICES_DE = [
-  { name: "Content Strategy & Campaign Planning" },
-  { name: "Paid Ads (Meta & TikTok Ads Manager)" },
-  { name: "Brand & Event Communications" },
-  { name: "Website & Landing Page Execution (WordPress)" },
-  { name: "Cross-team & International Stakeholder Coordination" },
-  { name: "AI-Powered Workflows & Automation" },
+const SERVICES_VI = [
+  { name: "Chiến lược content & lập kế hoạch chiến dịch" },
+  { name: "Chạy quảng cáo (Meta & TikTok Ads Manager)" },
+  { name: "Truyền thông thương hiệu & sự kiện" },
+  { name: "Xây dựng website & landing page (WordPress)" },
+  { name: "Phối hợp liên phòng ban & đối tác quốc tế" },
+  { name: "Quy trình làm việc & tự động hóa bằng AI" },
 ] as const satisfies { name: string }[];
 
 const services = computed(() => {
-  return locale.value === "en" ? SERVICES_EN : SERVICES_DE;
+  return locale.value === "vi" ? SERVICES_VI : SERVICES_EN;
 });
 </script>
 

@@ -105,7 +105,10 @@ watchEffect((onInvalidate) => {
   &-copy {
     font-weight: 700;
     color: var(--color-white-400);
-    font-family: "ProFontWindows";
+    font-family:
+      "Be Vietnam Pro",
+      "ProFontWindows",
+      sans-serif;
     text-transform: uppercase;
 
     &-size {

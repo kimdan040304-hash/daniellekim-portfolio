@@ -3,8 +3,10 @@
   "about-intro": "Hi, I'm Đan — part strategist, part copywriter, part ads-manager-whisperer.<br />I've planned content calendars, run paid campaigns across Meta and TikTok, built websites, and coordinated international events, sometimes all in the same week.",
   "about-tagline": "Hi, I'm Đan — part strategist, part copywriter, part ads-manager-whisperer. I've planned content calendars, run paid campaigns across Meta and TikTok, built websites, and coordinated international events, sometimes all in the same week. Marketing, to me, is just testing smarter until the numbers say yes. AI just helps me test faster.",
   "back-to-home": "Back to home",
+  "close": "Close",
   "contact": "Contact",
   "description": "Description",
+  "download-cv": "Download",
   "disable-sounds": "Disable sounds",
   "enable-sounds": "Enable sounds",
   "germany": "Ho Chi Minh City",
@@ -17,6 +19,7 @@
   "location": "Location",
   "music-produced-by": "Music produced by",
   "next-project": "Next Project",
+  "open-in-new-tab": "Open in new tab",
   "privacy": "Privacy",
   "projects": "Projects",
   "selected": "Selected",
@@ -25,5 +28,6 @@
   "source-code": "Source Code",
   "switch-to-project": "Switch to project {project}",
   "version": "Version",
+  "view-cv": "View CV",
   "view-project": "View project"
 }
